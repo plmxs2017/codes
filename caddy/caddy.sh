@@ -1,17 +1,13 @@
 #!/bin/bash                                                                                               
-
 # Root
 [[ $(id -u) != 0 ]] && blue "哎呀……请使用 root 用户运行 ~(^_^)" && exit 1
-
 file="/usr/local/caddy/"
 caddy_file="/usr/local/caddy/caddy"
 caddy_conf_file="/usr/local/caddy/Caddyfile"
-
 # 检测caddye是否已安装
 check_installed_status(){
 	[[ ! -e ${caddy_file} ]] && redbg "错误！ Caddy 没有安装，请检查 !" && exit 1
 }
-
 # 检测系统
 check_sys(){
 	if [[ -f /etc/redhat-release ]]; then
@@ -91,7 +87,6 @@ uninstall_caddy(){
 #开始菜单
 start_menu(){
     clear
-
     echo
     yellow "使用前提：域名必须已解析生效，否则自动配置会失效"
     blue "备注：域名由caddy反代，自动申请ssl证书，到期自动续期"
