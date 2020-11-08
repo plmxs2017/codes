@@ -10,13 +10,13 @@ Caddy是一个使用 Go语言写的 HTTP Server，开发时间并不长，在性
 官网地址
 https://caddyserver.com
 
-##e.g.
+## e.g.
 
-echo "127.0.0.1:端口 {
- gzip
- tls xxx@xxx.xxx
- proxy / baidu.com
-}" > /usr/local/caddy/Caddyfile
+    echo "127.0.0.1:端口 {
+     gzip
+     tls xxx@xxx.xxx
+     proxy / baidu.com
+    }" > /usr/local/caddy/Caddyfile
 
 ## 使用说明
 
