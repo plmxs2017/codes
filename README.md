@@ -36,3 +36,6 @@ https://caddyserver.com
 - 最后一句代码都是 }" > /usr/local/caddy/Caddyfile ，也就是清空了 Caddy配置文件，然后再写入了配置信息。
 
 - 如果你要设置多个网站，那么把最后一句代码改成 }" >> /usr/local/caddy/Caddyfile 即可，注意是把 > 改成 >> ，这样就不会清空原来的配置信息了，而是会把要添加的配置信息加到配置文件最后！
+
+
+![](https://i.loli.net/2020/11/08/LFMHdGAw8yOJ2pj.png)
