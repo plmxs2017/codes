@@ -149,10 +149,10 @@ start_menu(){
     greenbg "==============================================================="
     greenbg "简介：Caddy域名反代一键脚本                                      "
     greenbg "系统：适用于Centos、Ubuntu、Debian等                             "
-    greenbg "作者：https://github.com/plmxs2017/codes/tree/main/caddy        "
+    greenbg "作者：传说中的大佬        "
     greenbg "网站： https://github.com/plmxs2017/codes/tree/main/caddy       "
-    greenbg "主题：https://github.com/plmxs2017/codes/tree/main/caddy        "
-    greenbg "https://github.com/plmxs2017/codes/tree/main/caddy             "
+    greenbg "主题：caddy        "
+    greenbg "caddy反代一键脚本             "
     greenbg "==============================================================="
     echo
     yellow "使用前提：域名必须已解析生效，否则自动配置会失效"
