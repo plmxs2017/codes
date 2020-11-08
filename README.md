@@ -16,6 +16,7 @@ echo "127.0.0.1:端口 {
  proxy / baidu.com
 }" > /usr/local/caddy/Caddyfile
 
+
 ## 使用说明
 
 - 启动：/etc/init.d/caddy start
