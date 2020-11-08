@@ -1,13 +1,16 @@
-#!/bin/bash                                                                                               
+#!/bin/bash
 # Root
 [[ $(id -u) != 0 ]] && blue "哎呀……请使用 root 用户运行 ~(^_^)" && exit 1
+
 file="/usr/local/caddy/"
 caddy_file="/usr/local/caddy/caddy"
 caddy_conf_file="/usr/local/caddy/Caddyfile"
+
 # 检测caddye是否已安装
 check_installed_status(){
 	[[ ! -e ${caddy_file} ]] && redbg "错误！ Caddy 没有安装，请检查 !" && exit 1
 }
+
 # 检测系统
 check_sys(){
 	if [[ -f /etc/redhat-release ]]; then
@@ -34,7 +37,7 @@ install_caddy(){
 
 # 该配置会自动部署ssl证书，前提是域名已解析成功
 caddy_set(){
-    green "请输入域名：示例baidu.one或www.baidu.one"
+    green "请输入域名：示例baidu.com或www.baidu.com"
     redbg "注意：域名必须已解析生效，否则会导致申请证书失败"
     read -p "请输入域名：" domain
     greenbg "代理端口；示例888"
