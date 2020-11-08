@@ -1,4 +1,4 @@
-# codes
+# caddy
 personal
 Caddy是一个使用 Go语言写的 HTTP Server，开发时间并不长，在性能上或许比不上 Nginx，但是在 上手难度/配置难度 上面简单的不行不行的。
 
