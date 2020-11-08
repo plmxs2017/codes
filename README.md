@@ -3,7 +3,7 @@
 ## 一键脚本
     bash <(curl -L -s https://git.io/JkfJl)
 
-Caddy是一个使用 Go语言写的 HTTP Server，开发时间并不长，在性能上或许比不上 Nginx，但是在 上手难度/配置难度 上面简单的不行不行的。
+Caddy是使用 Go语言写的 HTTP Server，开发时间并不长，在性能上或许比不上 Nginx，但是在 上手难度/配置难度 上面简单的不行不行的。
 
 并且 Caddy支持 自动签订Let’s Encrypt SSL证书，什么都不需要你管，只需要提供一个邮箱，剩下的他会自己申请、配置和续约 SSL证书！
 
